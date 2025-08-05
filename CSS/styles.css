@@ -411,6 +411,14 @@ body {
     color: #8A7361;
 }
 
+@media (min-width:350px) {
+    .hero-main {
+        background-size: auto 115%;
+        background-position: 38% 29%;
+        background-repeat: no-repeat;
+    }
+}
+
 @media (min-width: 400px) {
     .boton-cabecera {
         display: flex;
